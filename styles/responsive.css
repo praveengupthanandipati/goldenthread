@@ -1,0 +1,62 @@
+/* Responsive CSS for Golden Thread Studios */
+
+/* Mobile: < 576px */
+@media (max-width: 575.98px) {
+    .hero-content h1 {
+        font-size: 2.5rem;
+    }
+
+    .hero-content p {
+        font-size: 1rem;
+    }
+
+    .section-padding {
+        padding: 60px 0;
+    }
+
+    .page-header {
+        padding: 120px 0 60px;
+    }
+}
+
+/* Tablet: 576px - 768px */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .hero-content h1 {
+        font-size: 3rem;
+    }
+}
+
+/* Laptop: 768px - 992px */
+@media (max-width: 991.98px) {
+    .navbar {
+        background: var(--primary-blue);
+    }
+
+    .navbar-collapse {
+        background: var(--primary-blue);
+        padding: 20px;
+    }
+
+    .nav-social {
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    .nav-social .social-link {
+        margin: 0 10px;
+    }
+}
+
+/* Desktop: 992px - 1200px */
+@media (min-width: 992px) {
+    .navbar {
+        padding: 25px 0;
+    }
+}
+
+/* Large Desktop: > 1200px */
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1140px;
+    }
+}
